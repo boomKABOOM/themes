@@ -1,0 +1,21 @@
+// Font paths
+// -------------------------
+
+@font-face {
+  font-family: "llco";
+  src: url("../fonts/llco.eot");
+  src: url("../fonts/llco.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/llco.woff2") format("woff2"),
+       url("../fonts/llco.woff") format("woff"),
+       url("../fonts/llco.ttf") format("truetype"),
+       url("../fonts/llco.svg#llco") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "llco";
+    src: url("../fonts/llco.svg#llco") format("svg");
+  }
+}

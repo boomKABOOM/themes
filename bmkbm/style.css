@@ -1,0 +1,112 @@
+/*
+	Theme Name: boomKABOOM
+	Description: Expertly crafted small business theme specifically made to simplify everything.
+	Version: 1.8
+	Author: boomKABOOM (Dec 2017)
+	Author URI: http://www.boomkaboom.com
+*/
+
+@import "include/css/styles.css";
+.nav.sticky, .nav.stuck, .nav{
+	position:absolute !important;
+}
+
+.bg-grad-zinc{
+	background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bullet-img{
+	display:block;
+	margin:0;
+	padding:0;
+}
+.bullet-img li{
+	display:block;
+	background: url(images/icon-circle.png) 0 2px no-repeat;
+	background-size:1.5em;
+	padding: 0 0 0 1.75em;
+	line-height:1.5em;
+	margin-bottom:.75em;
+}
+
+.hello-bubble{
+	position:relative;
+	top:-4em;
+}
+
+.page-title h1, .page-title h3{
+	color:#fff !important;
+}
+
+.devices-img{
+	position: absolute;
+    bottom: 0;
+    z-index: 5;
+}
+
+.justine-img{
+	position: absolute;
+    bottom: -5.5em;
+    z-index: 5;
+}
+
+.mobile-content{
+		display:none;
+	}
+
+.stethoscope-img{
+	background-position:bottom center !important;
+}
+
+@media(max-width:1200px){
+  .stethoscope-img{
+	background-position:center center !important;
+  }
+}
+@media(max-width:991px){
+	.hello-bubble{
+	top:0;
+}
+	.content-swap{
+		order:5;
+	}
+	.full-only{
+		display:none;
+	}
+	.mobile-content{
+		display:block !important;
+	}
+	.bg-white-mobile{
+		background:#fff !important;
+	}
+  .devices-img{
+	position: static;
+  }
+.bullet-img li{
+	background-size:1.25em;
+	font-size:1.3em;
+}
+	.justine-img{
+	position: static;
+		margin-bottom: -7em;
+  }
+
+	.third-font{
+		padding-bottom:0 !important;
+	}
+  .stethoscope-img{
+	background-position:bottom right !important;
+	background-size:25em !important;
+  }
+}
+
+@media(max-width:750px){
+	.bullet-img li{
+	font-size:1.5em;
+}
+  .stethoscope-img{
+	background:none !important;
+  }
+}

@@ -1,0 +1,251 @@
+@import "variables";
+
+html{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-family: $default-font;
+  font-size: $default-font-size;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+  letter-spacing: $default-letterspacing;
+}
+
+a, a:hover, a img, a:focus{
+  text-decoration: none;
+  outline: none;
+  border: 0;
+}
+p{
+  a{
+    display: inline-block;
+    font-size: 1.1em;
+    color: $color-gray;
+    text-decoration: underline;
+    font-weight: $extrabold-font;
+    &:hover{
+      color:$color-black;
+    }
+  }
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+hr{
+  height: 0;
+  clear: both;
+  display: block;
+  border:0;
+  width: 90%;
+  max-width: 900px;
+  border-top: 2px solid $color-midgray;
+  margin: 5rem auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $second-font;
+  color:inherit;
+  padding: 0;
+  margin:0 0 1rem 0;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+}
+
+h1, h3{
+  font-size: 3em;
+  font-family: $second-font;
+  line-height: 1.15em;
+  margin:1rem 0;
+  font-weight: $extrabold-font;
+}
+h2{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+article h2{
+  color:$color-green;
+}
+h3{
+  font-weight: 300;
+}
+h4{
+  font-size: 1.15em;
+  display: block;
+  text-transform: uppercase;
+  span{
+    text-transform: none;
+  }
+}
+h5{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  &strong, strong{
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0 0 2em 0;
+  }
+}
+h6, strong{
+  text-transform: uppercase;
+  font-size: 1.8em;
+  line-height: 2rem;
+  font-weight: $bold-font;
+  margin:0 0 .5rem 0;
+  color:$color-gray;
+}
+
+strong{
+  text-transform: none;
+  color: #404447;
+  font-size: 1em;
+}
+
+blockquote{
+  p{
+    color:$color-ltgray;
+    font-size: 1.75em !important;
+    line-height: 1.15em;
+    font-weight: $bold-font;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    strong{
+      font-size: .5em;
+      font-style: normal;
+      font-weight: $default-font-weight;
+      text-transform: none;
+      display: inline-block;
+      letter-spacing: $default-letterspacing;
+    }
+  }
+}
+
+article{
+  img{
+    min-width:50%;
+  }
+  ul{
+    display:inline-block;
+    margin: 0 0 1rem 3rem;
+    padding: 0;
+    li{
+      display: block;
+      margin:.5em 0;
+      position: relative;
+      &:before{
+        font-size: 1.5em;
+        position: absolute;
+        top:0; left: -1.5rem;
+        content:'\25cf';
+        color:$color-ltgray;
+      }
+      ul{
+        margin: 0 0 0 1.25em;
+        li{
+          &:before{
+            content:'\25CB';
+          }
+        }
+      }
+    }
+  }
+  ol {
+    display: block;
+    counter-reset: item;
+    list-style: none;
+    margin: 0 0 0 1.5em;
+    padding: 0;
+    li {
+      counter-increment: item;
+      position: relative;
+      z-index: 1;
+      margin: 0 0 2rem 0;
+      strong{
+        font-size: 1.15em;
+      }
+      &:before {
+        font-weight: $extrabold-font;
+        color: $color-gray;
+        position: absolute;
+        top:.75em;
+        left:-1.5em;
+        font-size: 1.25em;
+        line-height: 0;
+        text-align: center;
+        content: counter(item)'.';
+      }
+    }
+  }
+}
+
+.textcenter{
+  text-align:center !important;
+}
+
+.textleft{
+  text-align:left !important;
+}
+
+.textright{
+  text-align:right !important;
+}
+
+.alignleft{
+  float:left;
+  margin: 0 1em 1em 0;
+  max-width: 70%;
+}
+
+.alignright{
+  float:right;
+  margin: 0 0 1em 1em;
+  max-width: 70%;
+}
+
+@media(max-width:$size-md){
+  html, body{
+    font-size: 12px;
+  }
+
+  h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 1.7em;
+  }
+
+  blockquote{
+    p{
+      font-size: 1.75em !important;
+    }
+  }
+
+  .alignleft, .alignright{
+    max-width: 50%;
+  }
+}
+
+@media(max-width:$size-sm){
+  .alignleft, .alignright{
+    float:none;
+    margin: auto;
+    display: block;
+  }
+  h1, h2, h3, h4, h5, h6{
+    //line-height: 1.15em;
+  }
+}
+
+/* wp mce content editor override */
+.mce-content-body p, .mce-content-body div, .mce-content-body h1, .mce-content-body h2, .mce-content-body h3, .mce-content-body h4, .mce-content-body h5, .mce-content-body h6 {
+  line-height: $default-line-height;
+}

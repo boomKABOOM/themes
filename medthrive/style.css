@@ -1,0 +1,22 @@
+/*
+	Theme Name: Med Thrive
+	Description: Expertly crafted small business theme specifically made to simplify everything.
+	Version: 1.8
+	Author: boomKABOOM (Dec 2017)
+	Author URI: http://www.boomkaboom.com
+*/
+
+@import "include/css/styles.css";
+
+.bg-marisa{
+  background: #fff url(images/img-marisa.png) 110% bottom no-repeat;
+  background-size: auto 100%;
+}
+
+@media(max-width:750px){
+  .bg-marisa{
+    background: #fff url(images/img-marisa.png) center top no-repeat;
+    background-size: auto 20em;
+    padding-top:22em !important;
+  }
+}

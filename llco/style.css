@@ -1,0 +1,13 @@
+/*
+	Theme Name: lewis lane & co.
+	Description: Custom theme based off of HTML5 Blank WordPress Theme
+	Version: 1.7.8
+	Author: boomKABOOM (Mar 2018)
+	Author URI: http://www.boomkaboom.com
+*/
+
+@import "include/css/styles.css";
+
+.form .nf-after-field .nf-error-msg{height:auto !important;}
+.form iframe{width:100% !important;}
+.shrink70{transform:scale(.7);}

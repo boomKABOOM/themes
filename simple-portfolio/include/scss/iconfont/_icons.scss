@@ -1,0 +1,146 @@
+// Icons
+// -------------------------
+
+
+[data-icons8]:before,
+.icons8-black-twitter-logo:before,
+.icons8-black-twitter-logo-2:before,
+.icons8-connect:before,
+.icons8-connect-2:before,
+.icons8-conversation:before,
+.icons8-conversation-2:before,
+.icons8-dribbble:before,
+.icons8-dribbble-2:before,
+.icons8-e-mail:before,
+.icons8-e-mail-2:before,
+.icons8-facebook-circled:before,
+.icons8-facebook-circled-2:before,
+.icons8-facebook-logo:before,
+.icons8-facebook-logo-2:before,
+.icons8-foursquare:before,
+.icons8-foursquare-2:before,
+.icons8-get-quote:before,
+.icons8-get-quote-2:before,
+.icons8-github:before,
+.icons8-github-2:before,
+.icons8-gmail:before,
+.icons8-gmail-2:before,
+.icons8-google-maps:before,
+.icons8-google-maps-2:before,
+.icons8-google-plus:before,
+.icons8-google-plus-circled:before,
+.icons8-google-plus-circled-2:before,
+.icons8-instagram-camera:before,
+.icons8-instagram-camera-2:before,
+.icons8-linkedin:before,
+.icons8-linkedin-circled:before,
+.icons8-linkedin-circled-2:before,
+.icons8-location-marker:before,
+.icons8-location-marker-2:before,
+.icons8-mail:before,
+.icons8-mail-2:before,
+.icons8-medium:before,
+.icons8-medium-2:before,
+.icons8-news-feed:before,
+.icons8-news-feed-2:before,
+.icons8-phone:before,
+.icons8-phone-2:before,
+.icons8-pinterest-logo:before,
+.icons8-pinterest-logo-2:before,
+.icons8-quote:before,
+.icons8-quote-2:before,
+.icons8-reddit:before,
+.icons8-reddit-2:before,
+.icons8-share-symbol:before,
+.icons8-share-symbol-2:before,
+.icons8-snapchat:before,
+.icons8-snapchat-2:before,
+.icons8-stack-overflow:before,
+.icons8-stack-overflow-2:before,
+.icons8-star-rating:before,
+.icons8-star-rating-2:before,
+.icons8-video-play-button:before,
+.icons8-video-play-button-2:before,
+.icons8-video-playback:before,
+.icons8-video-playback-2:before,
+.icons8-yelp:before,
+.icons8-yelp-2:before,
+.icons8-youtube:before,
+.icons8-youtube-2:before,
+.icons8-youtube-play-button-logo:before,
+.icons8-youtube-play-button-logo-2:before,
+.icons8-yutube-media-library:before,
+.icons8-yutube-media-library-2:before,
+{ @include icons8-font; }
+
+[data-icons8]:before { content: attr(data-icons8); }
+
+.icons8-black-twitter-logo:before { content: $icons8-var-black-twitter-logo; }
+.icons8-black-twitter-logo-2:before { content: $icons8-var-black-twitter-logo-2; }
+.icons8-connect:before { content: $icons8-var-connect; }
+.icons8-connect-2:before { content: $icons8-var-connect-2; }
+.icons8-conversation:before { content: $icons8-var-conversation; }
+.icons8-conversation-2:before { content: $icons8-var-conversation-2; }
+.icons8-dribbble:before { content: $icons8-var-dribbble; }
+.icons8-dribbble-2:before { content: $icons8-var-dribbble-2; }
+.icons8-e-mail:before { content: $icons8-var-e-mail; }
+.icons8-e-mail-2:before { content: $icons8-var-e-mail-2; }
+.icons8-facebook-circled:before { content: $icons8-var-facebook-circled; }
+.icons8-facebook-circled-2:before { content: $icons8-var-facebook-circled-2; }
+.icons8-facebook-logo:before { content: $icons8-var-facebook-logo; }
+.icons8-facebook-logo-2:before { content: $icons8-var-facebook-logo-2; }
+.icons8-foursquare:before { content: $icons8-var-foursquare; }
+.icons8-foursquare-2:before { content: $icons8-var-foursquare-2; }
+.icons8-get-quote:before { content: $icons8-var-get-quote; }
+.icons8-get-quote-2:before { content: $icons8-var-get-quote-2; }
+.icons8-github:before { content: $icons8-var-github; }
+.icons8-github-2:before { content: $icons8-var-github-2; }
+.icons8-gmail:before { content: $icons8-var-gmail; }
+.icons8-gmail-2:before { content: $icons8-var-gmail-2; }
+.icons8-google-maps:before { content: $icons8-var-google-maps; }
+.icons8-google-maps-2:before { content: $icons8-var-google-maps-2; }
+.icons8-google-plus:before { content: $icons8-var-google-plus; }
+.icons8-google-plus-circled:before { content: $icons8-var-google-plus-circled; }
+.icons8-google-plus-circled-2:before { content: $icons8-var-google-plus-circled-2; }
+.icons8-instagram-camera:before { content: $icons8-var-instagram-camera; }
+.icons8-instagram-camera-2:before { content: $icons8-var-instagram-camera-2; }
+.icons8-linkedin:before { content: $icons8-var-linkedin; }
+.icons8-linkedin-circled:before { content: $icons8-var-linkedin-circled; }
+.icons8-linkedin-circled-2:before { content: $icons8-var-linkedin-circled-2; }
+.icons8-location-marker:before { content: $icons8-var-location-marker; }
+.icons8-location-marker-2:before { content: $icons8-var-location-marker-2; }
+.icons8-mail:before { content: $icons8-var-mail; }
+.icons8-mail-2:before { content: $icons8-var-mail-2; }
+.icons8-medium:before { content: $icons8-var-medium; }
+.icons8-medium-2:before { content: $icons8-var-medium-2; }
+.icons8-news-feed:before { content: $icons8-var-news-feed; }
+.icons8-news-feed-2:before { content: $icons8-var-news-feed-2; }
+.icons8-phone:before { content: $icons8-var-phone; }
+.icons8-phone-2:before { content: $icons8-var-phone-2; }
+.icons8-pinterest-logo:before { content: $icons8-var-pinterest-logo; }
+.icons8-pinterest-logo-2:before { content: $icons8-var-pinterest-logo-2; }
+.icons8-quote:before { content: $icons8-var-quote; }
+.icons8-quote-2:before { content: $icons8-var-quote-2; }
+.icons8-reddit:before { content: $icons8-var-reddit; }
+.icons8-reddit-2:before { content: $icons8-var-reddit-2; }
+.icons8-share-symbol:before { content: $icons8-var-share-symbol; }
+.icons8-share-symbol-2:before { content: $icons8-var-share-symbol-2; }
+.icons8-snapchat:before { content: $icons8-var-snapchat; }
+.icons8-snapchat-2:before { content: $icons8-var-snapchat-2; }
+.icons8-stack-overflow:before { content: $icons8-var-stack-overflow; }
+.icons8-stack-overflow-2:before { content: $icons8-var-stack-overflow-2; }
+.icons8-star-rating:before { content: $icons8-var-star-rating; }
+.icons8-star-rating-2:before { content: $icons8-var-star-rating-2; }
+.icons8-video-play-button:before { content: $icons8-var-video-play-button; }
+.icons8-video-play-button-2:before { content: $icons8-var-video-play-button-2; }
+.icons8-video-playback:before { content: $icons8-var-video-playback; }
+.icons8-video-playback-2:before { content: $icons8-var-video-playback-2; }
+.icons8-yelp:before { content: $icons8-var-yelp; }
+.icons8-yelp-2:before { content: $icons8-var-yelp-2; }
+.icons8-youtube:before { content: $icons8-var-youtube; }
+.icons8-youtube-2:before { content: $icons8-var-youtube-2; }
+.icons8-youtube-play-button-logo:before { content: $icons8-var-youtube-play-button-logo; }
+.icons8-youtube-play-button-logo-2:before { content: $icons8-var-youtube-play-button-logo-2; }
+.icons8-yutube-media-library:before { content: $icons8-var-yutube-media-library; }
+.icons8-yutube-media-library-2:before { content: $icons8-var-yutube-media-library-2; }
+
