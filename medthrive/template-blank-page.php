@@ -1,5 +1,5 @@
 <?php /* Template Name: Blank Template */ get_header(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo $themeRoot; ?>include/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/include/css/styles.css" />
 <style>
 header, footer, #drift-widget-container, .edit-links{
   display: none !important;

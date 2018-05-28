@@ -1,17 +1,18 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
   font-weight: 300;
   line-height: 2em;
   letter-spacing: 0.08em;
-  color: #4a4949; }
+  color: #596469; }
 
 a, a:hover, a img, a:focus {
   text-decoration: none;
   outline: none;
-  border: 0; }
+  border: 0;
+  color: #33424F; }
 
 p {
   font-size: 1em;
@@ -20,9 +21,8 @@ p {
   p a {
     display: inline-block;
     font-size: 1.1em;
-    color: #808285;
     text-decoration: underline;
-    font-weight: 700; }
+    font-weight: 800; }
     p a:hover {
       color: #4a4949; }
 
@@ -35,23 +35,26 @@ hr {
   clear: both;
   display: block;
   border: 0;
-  width: 90%;
-  border-top: 1px solid #bdb6b0;
-  margin: 72px 0; }
+  width: 125px;
+  border-top: 3px solid #DFEC53;
+  margin: 1rem 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: inherit;
+  color: #33424F;
   padding: 0;
   margin: 0 0 12px 0;
   font-weight: 300;
   line-height: 2em; }
 
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: #fff !important; }
+
 h1, h3 {
   font-size: 2.35em;
   line-height: 1.15em;
-  color: #407390;
+  color: #33424F;
   margin: 12px 0 24px 0;
-  font-weight: 700; }
+  font-weight: 800; }
 
 h2 {
   font-size: 1.15em;
@@ -63,7 +66,7 @@ h4 {
   font-size: 1.5em;
   display: block;
   margin: 12px 0;
-  font-weight: 700; }
+  font-weight: 800; }
 
 h5 {
   font-size: 1.15em;
@@ -76,7 +79,7 @@ h6 {
   margin: 12px 12px 12px 0; }
 
 blockquote p {
-  color: #bdb6b0;
+  color: #596469;
   font-size: 1.75em !important;
   line-height: 1.15em;
   font-weight: 300;
@@ -143,11 +146,11 @@ article ol {
     position: relative;
     z-index: 1;
     margin: 0;
-    font-weight: 700; }
+    font-weight: 800; }
     article ol li strong {
       font-size: 1.15em; }
     article ol li:before {
-      font-weight: 700;
+      font-weight: 800;
       color: #808285;
       position: absolute;
       top: .75em;
@@ -174,7 +177,7 @@ article ol {
 
 @media (max-width: 768px) {
   html, body {
-    font-size: 12px; }
+    font-size: 16px; }
   article p, article h6 {
     margin: 12px 0; }
   article ul {

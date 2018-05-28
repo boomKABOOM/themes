@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="wrapper default-page pt-5 pb-5" style="background: url(<?php echo $themeRoot; ?>images/img-main1a.jpg) left no-repeat; background-size:cover;">
+<div class="wrapper default-page pt-5 pb-5" style="background: url(<?php echo get_template_directory_uri(); ?>/images/img-main1a.jpg) left no-repeat; background-size:cover;">
   <div class="container slowfade" style="padding:6em 0 4em 0;">
 
   </div>

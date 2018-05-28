@@ -1,15 +1,15 @@
 .nav {
-  position: fixed;
-  background: transparent;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   z-index: 100;
-  top: 2.5em;
+  top: 0;
   left: 0;
   width: 100%;
-  padding: 1em 0; }
+  padding: .5em 0; }
   .nav .logo {
     position: relative;
-    display: block;
-    max-width: 300px; }
+    max-width: 250px; }
     .nav .logo [class^="logo--"] {
       -webkit-transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
@@ -24,69 +24,67 @@
       opacity: 0; }
     .nav .logo .logo--white {
       opacity: 1; }
-  .nav nav {
-    padding: 0; }
-    .nav nav ul {
-      display: block;
-      margin: 0;
-      padding: 0;
-      text-align: right; }
-      .nav nav ul li {
-        border-left: 1px solid #bdb6b0;
-        display: inline-block;
-        margin: .15em 0;
-        padding: 0 1em;
-        line-height: 1.5em;
-        position: relative; }
-        .nav nav ul li:first-child {
-          border-left: 0; }
-        .nav nav ul li a {
-          -webkit-transition: all 0.5s ease;
-          -moz-transition: all 0.5s ease;
-          -o-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+  .nav nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: right; }
+    .nav nav ul li {
+      border-left: 1px solid #bdb6b0;
+      display: inline-block;
+      margin: .15em 0;
+      padding: 0 1em;
+      line-height: 1.5em;
+      position: relative; }
+      .nav nav ul li:first-child {
+        border-left: 0; }
+      .nav nav ul li a {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        display: block;
+        padding: 0 .5em;
+        font-size: .85em;
+        font-weight: 400;
+        color: #4a4949;
+        text-transform: uppercase; }
+      .nav nav ul li ul {
+        padding: 1.5em 0 0 0;
+        position: absolute;
+        top: 1em;
+        left: 0;
+        width: 200px;
+        text-align: left;
+        display: none; }
+        .nav nav ul li ul li {
           display: block;
-          padding: 0 1em;
-          font-size: .85em;
-          font-weight: 400;
-          color: #4a4949;
-          text-transform: uppercase; }
-        .nav nav ul li ul {
-          padding: 1.5em 0 0 0;
-          position: absolute;
-          top: 1em;
-          left: 0;
-          width: 200px;
-          text-align: left;
-          display: none; }
-          .nav nav ul li ul li {
-            display: block;
-            border-left: 0;
-            margin: 0;
-            padding: 0; }
-            .nav nav ul li ul li a {
-              text-transform: none;
-              color: #4a4949;
+          border-left: 0;
+          margin: 0;
+          padding: 0; }
+          .nav nav ul li ul li a {
+            text-transform: none;
+            color: #4a4949;
+            border: 0;
+            border-top: 1px solid transparent;
+            border-bottom: 1px solid transparent;
+            padding: .75em;
+            line-height: 1.15em;
+            background: #F8F8F8; }
+            .nav nav ul li ul li a:hover {
               border: 0;
-              border-top: 1px solid transparent;
-              border-bottom: 1px solid transparent;
-              padding: .75em;
-              line-height: 1.15em;
-              background: #f1f0ef; }
-              .nav nav ul li ul li a:hover {
-                border: 0;
-                background: #fff;
-                border-top: 1px solid #407390;
-                border-bottom: 1px solid #407390;
-                font-weight: 700; }
-        .nav nav ul li:hover ul {
-          display: block; }
-          .nav nav ul li:hover ul ul {
-            display: none; }
+              background: #fff;
+              border-top: 1px solid #33424F;
+              border-bottom: 1px solid #33424F;
+              font-weight: 800; }
+      .nav nav ul li:hover ul {
+        display: block; }
+        .nav nav ul li:hover ul ul {
+          display: none; }
   .nav.sticky, .nav.stuck {
     top: 0;
     z-index: 999;
-    background: #f1f0ef;
+    background: #F8F8F8;
     padding: .85em 0;
     border-bottom: 1px solid #4a4949; }
     .nav.sticky .logo img, .nav.stuck .logo img {
@@ -103,6 +101,10 @@
       .nav.sticky nav ul li ul a, .nav.stuck nav ul li ul a {
         margin: 0;
         padding: .75em; }
+
+footer .logo {
+  max-width: 250px;
+  display: inline-block; }
 
 .tab-btn {
   padding: .25em 1.5em .5em 1.5em;
@@ -149,7 +151,7 @@
     font-size: .75em;
     padding: .8em 1em;
     border-radius: 100px 0 0 100px;
-    background: #407390;
+    background: #33424F;
     color: #fff;
     margin: 2px 0;
     position: relative;
@@ -160,7 +162,7 @@
       -o-transition: all 0.25s ease;
       transition: all 0.25s ease;
       display: inline-block;
-      background: #407390;
+      background: #33424F;
       height: 1em;
       width: 1em;
       border-radius: 100px;
@@ -170,7 +172,7 @@
       opacity: 0; }
     .edit-links a:hover {
       width: 10em;
-      background: #407390; }
+      background: #33424F; }
       .edit-links a:hover span {
         opacity: 1; }
 
@@ -190,7 +192,7 @@
   line-height: .5em;
   height: 1.5em;
   width: 1.5em;
-  font-weight: 700;
+  font-weight: 800;
   padding: .5em;
   background: #808285; }
   .expand:hover {
@@ -231,23 +233,24 @@
     right: 1em;
     display: block;
     z-index: 99;
-    color: #407390;
+    color: #33424F;
     font-size: 2em;
-    font-weight: 700; }
+    font-weight: 800; }
     #toggle-nav:hover, #close-nav:hover {
       cursor: pointer; }
   #close-nav {
     top: .5em;
     right: .5em;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    color: #fff; }
   .nav {
     top: 0; }
     .nav .container {
       padding: 1em; }
-      .nav .container .logo {
-        height: 3em; }
-        .nav .container .logo img {
-          margin: 0; }
+      .nav .container .logo img {
+        height: auto;
+        max-width: 200px;
+        margin: 0; }
       .nav .container nav {
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;

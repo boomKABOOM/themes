@@ -1,5 +1,4 @@
 <?php include('sections/login-modal.php'); ?>
-<?php $themeRoot = "/wp-content/themes/medthrive/"; ?>
 
 <footer>
 
@@ -8,7 +7,7 @@
       <div class="row">
         <div class="col-12 pt-3">
           <a href="/" class="logo">
-            <img src="<?php echo $themeRoot; ?>images/logo-bmkbm-w.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-bmkbm-w.png" />
           </a>
           <h5 class="bigger-text pt-3">Medical Branding & Marketing Experts.</h5>
         </div>
@@ -49,7 +48,7 @@
 
 </footer>
 
-<script src="<?php echo $themeRoot; ?>include/js/script.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/include/js/script.js"></script>
 
 <?php wp_footer(); ?>
 

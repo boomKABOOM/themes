@@ -24,7 +24,7 @@ while (have_posts()) : the_post(); ?>
   if (has_post_thumbnail()) {
   	the_post_thumbnail_url('full');
   } else {
-    echo $themeRoot.'images/img-main1a.jpg';
+    echo get_template_directory_uri().'/images/img-main1a.jpg';
   }
 ?>) left no-repeat; background-size:cover;">
   <div class="container slowfade" style="padding:10em 0;">

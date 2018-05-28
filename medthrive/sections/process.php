@@ -5,14 +5,14 @@
     <div class="process-container mt-5">
       <div class="row p-0 p-md-3 process-item">
         <div class="col-12 col-md-4">
-          <div class="image" style="background:url(<?php echo $themeRoot; ?>images/img-process-define.png) no-repeat; background-size:cover;">
+          <div class="image" style="background:url(<?php echo get_template_directory_uri(); ?>/images/img-process-define.png) no-repeat; background-size:cover;">
             <div class="number">01</div>
           </div>
           <div class="label">
             <div>Define</div>
           </div>
           <div class="icon">
-            <img src="<?php echo $themeRoot; ?>images/icon-heart.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icon-heart.png" />
           </div>
         </div>
         <div class="col-12 col-md-8 text">
@@ -24,14 +24,14 @@
       </div>
       <div class="row p-0 p-md-3 process-item">
         <div class="col-12 col-md-4 ">
-          <div class="image" style="background:url(<?php echo $themeRoot; ?>images/img-process-research.png) no-repeat; background-size:cover;">
+          <div class="image" style="background:url(<?php echo get_template_directory_uri(); ?>/images/img-process-research.png) no-repeat; background-size:cover;">
             <div class="number">02</div>
           </div>
           <div class="label">
             <div>Enrich</div>
           </div>
           <div class="icon">
-            <img src="<?php echo $themeRoot; ?>images/icon-phone.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icon-phone.png" />
           </div>
         </div>
         <div class="col-12 col-md-8 text">
@@ -43,14 +43,14 @@
       </div>
       <div class="row p-0 p-md-3 process-item">
         <div class="col-12 col-md-4">
-          <div class="image" style="background:url(<?php echo $themeRoot; ?>images/img-process-present.png) no-repeat; background-size:cover;">
+          <div class="image" style="background:url(<?php echo get_template_directory_uri(); ?>/images/img-process-present.png) no-repeat; background-size:cover;">
             <div class="number">03</div>
           </div>
           <div class="label">
             <div>Engage</div>
           </div>
           <div class="icon">
-            <img src="<?php echo $themeRoot; ?>images/icon-marketing.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icon-marketing.png" />
           </div>
         </div>
         <div class="col-12 col-md-8 text">
@@ -62,14 +62,14 @@
       </div>
       <div class="row p-0 p-md-3 process-item">
         <div class="col-12 col-md-4">
-          <div class="image" style="background:url(<?php echo $themeRoot; ?>images/img-process-recruit.png) no-repeat; background-size:cover;">
+          <div class="image" style="background:url(<?php echo get_template_directory_uri(); ?>/images/img-process-recruit.png) no-repeat; background-size:cover;">
             <div class="number">04</div>
           </div>
           <div class="label">
             <div>Present</div>
           </div>
           <div class="icon">
-            <img src="<?php echo $themeRoot; ?>images/icon-chart.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icon-chart.png" />
           </div>
         </div>
         <div class="col-12 col-md-8 text">
@@ -81,14 +81,14 @@
       </div>
       <div class="row p-0 p-md-3 process-item">
         <div class="col-12 col-md-4 ">
-          <div class="image" style="background:url(<?php echo $themeRoot; ?>images/img-process-support.png) no-repeat; background-size:cover;">
+          <div class="image" style="background:url(<?php echo get_template_directory_uri(); ?>/images/img-process-support.png) no-repeat; background-size:cover;">
             <div class="number">05</div>
           </div>
           <div class="label">
             <div>Connect</div>
           </div>
           <div class="icon">
-            <img src="<?php echo $themeRoot; ?>images/icon-handshake.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icon-handshake.png" />
           </div>
         </div>
         <div class="col-12 col-md-8 text">

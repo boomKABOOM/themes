@@ -1,8 +1,6 @@
 <!doctype html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-	<!-- MAKE SURE TO also redefine $themeRoot in the functions.php file -->
-  <?php $themeRoot = "/wp-content/themes/medthrive/"; ?>
 
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,20 +10,20 @@
 
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
-    <link href="<?php echo $themeRoot; ?>favicon.ico" rel="shortcut icon">
-    <link href="<?php echo $themeRoot; ?>touch.png" rel="apple-touch-icon-precomposed">
+    <link href="<?php echo get_template_directory_uri(); ?>/favicon.ico" rel="shortcut icon">
+    <link href="<?php echo get_template_directory_uri(); ?>/touch.png" rel="apple-touch-icon-precomposed">
 
-    <script src="<?php echo $themeRoot; ?>include/js/jquery.min.js"></script>
-    <script src="<?php echo $themeRoot; ?>include/vendors/jquery.cookie.min.js"></script>
-    <script src="<?php echo $themeRoot; ?>include/vendors/jquery.smoothState.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/include/js/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/include/vendors/jquery.cookie.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/include/vendors/jquery.smoothState.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="<?php echo $themeRoot; ?>include/vendors/slick/slick.css"/>
-    <script src="<?php echo $themeRoot; ?>include/vendors/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/include/vendors/slick/slick.css"/>
+    <script src="<?php echo get_template_directory_uri(); ?>/include/vendors/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
     <?php wp_head(); ?>
 
-    <link rel="stylesheet" href="<?php echo $themeRoot; ?>include/vendors/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $themeRoot; ?>style.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/include/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css" />
 
     <script>
     // conditionizr.com
@@ -56,7 +54,7 @@
     <div class="row p-1 p-md-3" style="align-items:center;">
       <div class="col-12 col-md-3">
         <a href="/" class="logo">
-          <img src="<?php echo $themeRoot; ?>images/logo-bmkbm.png" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/logo-bmkbm.png" />
         </a>
       </div>
       <div class="col-12 col-md-9">

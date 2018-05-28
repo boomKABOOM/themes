@@ -15,9 +15,6 @@
 	Theme Support
 \*------------------------------------*/
 
-// MAKE SURE TO also redefine $themeRoot in the header.php file
-$themeRoot = "/wp-content/themes/8889/";
-
 
 if (function_exists('add_theme_support'))
 {
@@ -418,7 +415,7 @@ add_action('wp_enqueue_scripts', 'html5blank_styles'); // Add Theme Stylesheet
 add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 
 function my_theme_add_editor_styles() {
-    add_editor_style( $themeRoot . 'include/css/base.css' );
+    add_editor_style( get_template_directory_uri() . '/include/css/base.css' );
 }
 add_action( 'admin_init', 'my_theme_add_editor_styles' ); // custom styles in dashboard
 

@@ -1,6 +1,3 @@
-<?php
-$themeRoot = "/wp-content/themes/medthrive/";
-?>
 <article id="post-<?php the_ID(); ?>" class="post-list-item">
   <h4>
     <?php the_category(' | '); ?>
@@ -23,7 +20,7 @@ $themeRoot = "/wp-content/themes/medthrive/";
   <a class="image" href="<?php echo get_permalink(); ?>"> <img src="<?php if ( has_post_thumbnail() ) {
     	the_post_thumbnail_url('medium_large');
     } else{
-      echo($themeRoot . 'images/img-main1.jpg');
+      echo(get_template_directory_uri() . '/images/img-main1.jpg');
     }
     ?>" /></a>
   <div class="text">

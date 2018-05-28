@@ -27,7 +27,7 @@
       margin: 0; }
     .site-overlay .modal-box #close-overlay {
       color: #4a4949;
-      font-weight: 700;
+      font-weight: 800;
       padding: .5em;
       border-radius: .5em;
       border: 1px solid #bdb6b0;
@@ -70,7 +70,7 @@
     margin: 12px 0; }
   .form .checkbox {
     padding: .25em .75em 0 .75em;
-    background: #f1f0ef;
+    background: #F8F8F8;
     border-radius: 5px;
     border: 2px solid #ccc; }
   .form ul {
@@ -110,7 +110,7 @@
       text-transform: uppercase;
       border: 1px solid #4a4949; }
       .form input[type=submit]:hover, .form input[type=button]:hover, .form textarea[type=submit]:hover, .form textarea[type=button]:hover {
-        background: #407390;
+        background: #33424F;
         color: #fff;
         border-color: transparent; }
   .form textarea {
@@ -133,7 +133,7 @@
     .form .list-radio-wrap ul {
       font-size: 0; }
       .form .list-radio-wrap ul li {
-        font-size: 16px;
+        font-size: 18px;
         border-radius: 0;
         border: 1px solid #bdb6b0;
         display: inline-block;

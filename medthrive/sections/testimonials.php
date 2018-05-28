@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="<?php echo $themeRoot; ?>/include/vendors/slick/slick.css"/>
-<script src="<?php echo $themeRoot; ?>/include/vendors/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/include/vendors/slick/slick.css"/>
+<script src="<?php echo get_template_directory_uri(); ?>/include/vendors/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
 <div class="wrapper pt-0">
   <div class="container pt-5 pb-5 pr-0 pl-0">

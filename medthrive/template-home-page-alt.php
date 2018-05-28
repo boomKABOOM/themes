@@ -31,12 +31,12 @@ echo "</pre>";
 <div class="wrapper slider">
   <div id="overlay" class="overlay"></div>
   <video id="home_bg_vid" class="full-only" muted="" autoplay="" loop="">
-    <source id="mp4" type="video/mp4" src="<?php echo $themeRoot; ?>images/kid-doc-teddy-lg.mp4">
+    <source id="mp4" type="video/mp4" src="<?php echo get_template_directory_uri(); ?>/images/kid-doc-teddy-lg.mp4">
   </video>
   <div id="prompt" class="prompt--next">
     Grow Your Presence
     <div class="arrow">
-      <img src="<?php echo $themeRoot; ?>images/arr-dn.png" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/arr-dn.png" />
     </div>
   </div>
 
@@ -129,7 +129,7 @@ $('#prompt').click(function(){
   <div class="container content-container bg-computer">
     <div class="row center-mobile">
   	  <div class="col-12 col-md-8">
-        <img class="logo pt-5 pb-5 mobile-only" src="<?php echo $themeRoot; ?>images/logo-mt-alt.png" />
+        <img class="logo pt-5 pb-5 mobile-only" src="<?php echo get_template_directory_uri(); ?>/images/logo-mt-alt.png" />
   		  <h3><span>We diagnose, then treat.</span> <span>Just like you.</span></h3>
         <p>MedThrive is a new idea. An idea that levels the medical playing field by reaching beyond the imaginable to create memorable, engaging, and contagious brand experiences.</p>
         <a href="/services" class="btn btn-outline-primary">Learn More</a>
@@ -146,7 +146,7 @@ $('#prompt').click(function(){
         <hr/>
       </div>
   	  <div class="col-12 col-md-4">
-        <img class="icon" src="<?php echo $themeRoot; ?>images/icon-heart.png" />
+        <img class="icon" src="<?php echo get_template_directory_uri(); ?>/images/icon-heart.png" />
         <h4>Brand Transformation</h4>
         <p>Good branding is good practice. Stand out with an authentic presence that speaks directly to your patients' needs. </p>
         <hr class="full-only"/>
@@ -154,7 +154,7 @@ $('#prompt').click(function(){
         <hr class="mobile-only"/>
       </div>
   	  <div class="col-12 col-md-4">
-        <img class="icon" src="<?php echo $themeRoot; ?>images/icon-phone.png" />
+        <img class="icon" src="<?php echo get_template_directory_uri(); ?>/images/icon-phone.png" />
         <h4>Experiential Marketing</h4>
         <p>Your practice is more than an office. Create an experience worth remembering with creative positioning.</p>
         <hr class="full-only"/>
@@ -162,7 +162,7 @@ $('#prompt').click(function(){
         <hr class="mobile-only"/>
       </div>
   	  <div class="col-12 col-md-4">
-        <img class="icon" src="<?php echo $themeRoot; ?>images/icon-chart.png" />
+        <img class="icon" src="<?php echo get_template_directory_uri(); ?>/images/icon-chart.png" />
         <h4>Website Development</h4>
         <p>Your website is your castle in the cloud. Level the playing field by dazzling online.</p>
         <hr class="full-only"/>

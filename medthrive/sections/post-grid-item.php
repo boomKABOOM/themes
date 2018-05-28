@@ -1,5 +1,4 @@
 <?php
-$themeRoot = "/wp-content/themes/medthrive/";
 $item_link = get_permalink();
 $link_target = '_self';
 ?>
@@ -8,7 +7,7 @@ $link_target = '_self';
   <a class="image" href="<?php echo $item_link; ?>" target="<?php echo $link_target; ?>" style="background:url(<?php if ( has_post_thumbnail() ) {
     	the_post_thumbnail_url('medium_large');
     } else{
-      echo($themeRoot . 'images/img-main1.jpg');
+      echo(get_template_directory_uri() . '/images/img-main1.jpg');
     }
     ?>) no-repeat center center;">&nbsp;</a>
   <div class="content">

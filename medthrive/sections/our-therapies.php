@@ -1,4 +1,4 @@
-<div class="wrapper" style="background:#f1f0ef url(<?php echo $themeRoot; ?>/images/img-main5.jpg) top center no-repeat; border-top:1px solid #333;">
+<div class="wrapper" style="background:#f1f0ef url(<?php echo get_template_directory_uri(); ?>/images/img-main5.jpg) top center no-repeat; border-top:1px solid #333;">
   <div class="container">
     <div class="row mb-5">
       <div class="col-12 col-sm-8 offset-0 offset-sm-2 text-center p-5">
@@ -13,7 +13,7 @@
         <a href="#" class="box-item">
           <div class="title">
             <div class="image">
-              <img src="<?php echo $themeRoot; ?>images/icon-dental.png" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/icon-dental.png" />
             </div>
             <h2>Dental</h2>
           </div>
@@ -25,7 +25,7 @@
         <a href="#" class="box-item">
           <div class="title">
             <div class="image">
-              <img src="<?php echo $themeRoot; ?>images/icon-medical.png" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/icon-medical.png" />
             </div>
             <h2>Medical</h2>
           </div>
@@ -37,7 +37,7 @@
         <a href="#" class="box-item">
           <div class="title">
             <div class="image">
-              <img src="<?php echo $themeRoot; ?>images/icon-glasses.png" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/icon-glasses.png" />
             </div>
             <h2>Optometry</h2>
           </div>
@@ -49,7 +49,7 @@
         <a href="#" class="box-item">
           <div class="title">
             <div class="image">
-              <img src="<?php echo $themeRoot; ?>images/icon-pt.png" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/icon-pt.png" />
             </div>
             <h2>Therapy</h2>
           </div>
@@ -60,7 +60,7 @@
     </div>
     <div class="row border-box pt-5 mt-0 mb-5">
       <div class="col-12 col-sm-6 p-4 p-md-5">
-        <img src="<?php echo $themeRoot; ?>/images/img-main4.jpg" />
+        <img src="<?php echo get_template_directory_uri(); ?>/images/img-main4.jpg" />
       </div>
       <div class="col-12 col-sm-6" style="align-self: center;">
         <h2>Customize Your Website Today.</h2>

@@ -1,7 +1,5 @@
 <?php
 
-$themeRoot = "/wp-content/themes/medthrive/";
-
 // LOGIC OUTLINE
 //
 // blog
