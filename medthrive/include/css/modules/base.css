@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   font-family: "Dosis", sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2em;
   letter-spacing: 0.08em;
   color: #596469; }
@@ -22,7 +22,7 @@ p {
     display: inline-block;
     font-size: 1.1em;
     text-decoration: underline;
-    font-weight: 800; }
+    font-weight: 700; }
     p a:hover {
       color: #4a4949; }
 
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #33424F;
   padding: 0;
   margin: 0 0 12px 0;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2em; }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
@@ -54,7 +54,7 @@ h1, h3 {
   line-height: 1.15em;
   color: #33424F;
   margin: 12px 0 24px 0;
-  font-weight: 800; }
+  font-weight: 700; }
 
 h2 {
   font-size: 1.15em;
@@ -66,7 +66,7 @@ h4 {
   font-size: 1.5em;
   display: block;
   margin: 12px 0;
-  font-weight: 800; }
+  font-weight: 700; }
 
 h5 {
   font-size: 1.15em;
@@ -82,14 +82,14 @@ blockquote p {
   color: #596469;
   font-size: 1.75em !important;
   line-height: 1.15em;
-  font-weight: 300;
+  font-weight: 600;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 1.5px; }
   blockquote p strong {
     font-size: .5em;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: none;
     display: inline-block;
     letter-spacing: 0.08em; }
@@ -131,7 +131,7 @@ article ul {
       margin: 0 0 0 24px;
       font-size: 1em; }
       article ul li ul li {
-        font-weight: 300; }
+        font-weight: 400; }
         article ul li ul li:before {
           content: '\25CB'; }
 
@@ -146,11 +146,11 @@ article ol {
     position: relative;
     z-index: 1;
     margin: 0;
-    font-weight: 800; }
+    font-weight: 700; }
     article ol li strong {
       font-size: 1.15em; }
     article ol li:before {
-      font-weight: 800;
+      font-weight: 700;
       color: #808285;
       position: absolute;
       top: .75em;

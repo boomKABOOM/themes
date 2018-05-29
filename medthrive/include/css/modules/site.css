@@ -1,3 +1,20 @@
+.align-right {
+  text-align: right; }
+
+.align-left {
+  text-align: left; }
+
+.align-center {
+  text-align: center; }
+  .align-center hr {
+    margin: 2rem auto; }
+
+.darken {
+  -webkit-filter: brightness(0.7);
+  -moz-filter: brightness(0.7);
+  -o-filter: brightness(0.7);
+  filter: brightness(0.7); }
+
 .parallax-bg {
   padding: 120px 0 !important; }
 
@@ -25,10 +42,30 @@
       z-index: 9;
       opacity: 1; }
 
+.hero-text h1 {
+  font-weight: 600;
+  font-size: 4rem; }
+
+.hero-text h2 {
+  font-weight: 600;
+  font-size: 1.25rem; }
+
+.hero-text hr {
+  margin: 2rem auto;
+  border-color: #fff;
+  border-width: 1px; }
+
+.hero-text h4 {
+  font-weight: 600;
+  font-size: 1.65rem;
+  max-width: 25em;
+  margin: auto; }
+
 .wrapper {
   background-color: #F8F8F8;
   padding: 2rem;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .wrapper.default-page {
     padding: 1rem 0 0 0; }
 
@@ -36,12 +73,35 @@
   max-width: 1200px;
   width: 100%;
   padding: 0 3.5em;
-  margin: auto; }
+  margin: auto;
+  position: relative; }
+
+.svg-container {
+  position: relative; }
+  .svg-container .pattern-overlay {
+    background: url(../../images/pattern-icon-overlay.png);
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.bg-svg {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  overflow: visible !important; }
 
 .content-container {
+  border-radius: 70px;
+  position: relative;
+  z-index: 1;
   background: #fff;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   padding: 5em 3em; }
+  .content-container .content-container {
+    padding: 2em 6em;
+    margin: 0 0 4rem 0; }
 
 span {
   display: inline-block; }
@@ -539,21 +599,6 @@ span {
     z-index: 10; }
     .slider .slide .container {
       align-self: center; }
-    .slider .slide .slide--content h2 {
-      line-height: 1em;
-      color: #fff; }
-    .slider .slide .slide--content h3 {
-      margin: 0 0 24px 0;
-      font-size: 4.25em;
-      line-height: 1.15em;
-      font-weight: 800;
-      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
-      color: #fff; }
-    .slider .slide .slide--content h4 {
-      font-size: 1.25em;
-      line-height: 2em;
-      font-weight: 400;
-      color: #fff; }
   .slider .inactive {
     opacity: 0;
     left: 5em;
@@ -673,7 +718,7 @@ ul.slick-dots {
   margin: 2em 24px 2em 0;
   font-size: .85em;
   letter-spacing: .15em;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase; }
   .btn-outline-primary:hover {
     background: #33424F url(../../images/icon-plus.png) no-repeat;
@@ -685,6 +730,26 @@ ul.slick-dots {
     .btn-outline-primary.btn-orange:hover {
       border: 1px solid #fff !important;
       background: #808285; }
+  .btn-outline-primary.btn--get-started {
+    min-width: 0;
+    letter-spacing: 0;
+    border: 0 !important;
+    padding: .5em 1em;
+    background: #dfec53;
+    background: #ec7153;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dfec53, #ec7153);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dfec53, #ec7153);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+    .btn-outline-primary.btn--get-started:hover {
+      cursor: pointer;
+      background: #c33816;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #b5c316, #c33816);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #b5c316, #c33816);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .dark .btn-outline-primary {
   color: #fff;
@@ -796,7 +861,7 @@ iframe {
   padding-top: 12px;
   padding-left: 36px; }
   .sidebar p a {
-    font-weight: 300;
+    font-weight: 400;
     font-size: .85em;
     line-height: 1.5em; }
     .sidebar p a:hover {
@@ -834,7 +899,7 @@ iframe {
     height: 1.5em;
     line-height: .75em;
     text-align: center;
-    font-weight: 800;
+    font-weight: 700;
     padding: 5px;
     color: #fff;
     background: #33424F; }

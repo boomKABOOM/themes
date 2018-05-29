@@ -51,16 +51,17 @@
 <section class="nav dark">
   <div id="toggle-nav">&#9776;</div>
   <div class="container">
-    <div class="row p-1 p-md-3" style="align-items:center;">
+    <div class="row" style="align-items:center;">
       <div class="col-12 col-md-3">
         <a href="/" class="logo">
           <img src="<?php echo get_template_directory_uri(); ?>/images/logo-bmkbm.png" />
         </a>
       </div>
-      <div class="col-12 col-md-9">
+      <div class="col-12 col-md-9 align-right">
         <nav>
           <div id="close-nav">X</div>
           <?php main_nav(); ?>
+          <a class="btn btn-outline-primary btn--get-started">Get Started</a>
         </nav>
       </div>
     </div>
