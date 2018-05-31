@@ -129,6 +129,9 @@ $('#prompt').click(function(){
           <img src="<?php echo get_template_directory_uri(); ?>/images/sample-stuff.png" />
         </div>
       </div>
+
+      <?php include('sections/cta-block.php'); ?>
+
     </div>
 
   </div>

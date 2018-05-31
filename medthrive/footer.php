@@ -2,12 +2,12 @@
 
 <footer>
 
-  <div class="wrapper w-footer pt-5 pb-5 dark" style="background:url(/wp-content/themes/bmkbm/images/img-workdesk.jpg) bottom center no-repeat; background-size:cover;">
+  <div class="wrapper w-footer pt-5 pb-5">
     <div class="container">
       <div class="row">
         <div class="col-12 pt-3">
           <a href="/" class="logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-bmkbm-w.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-bmkbm.png" />
           </a>
           <h5 class="bigger-text pt-3">Medical Branding & Marketing Experts.</h5>
         </div>
@@ -18,17 +18,7 @@
         </div>
 
         <div class="col-6 col-md-2 p-3">
-          <h5>Services</h5>
-          <a href="/services/brand-transformation">Brand Transformation</a><br/>
-          <a href="/services/experiential-marketing">Experiential Marketing</a><br/>
-          <a href="/services/digital-footprint">Digital Footprint</a><br/>
-          <a href="/services/website-development">Website Development</a><br/>
-          <a href="/services/social-media">Social Media</a><br/>
-        </div>
-        <div class="col-6 col-md-2 p-3 ">
-          <h5>Locations</h5>
-           Grand Rapids, MI<br/>
-           Austin, TX<br/>
+          
         </div>
       </div>
     </div>

@@ -39,6 +39,9 @@ hr {
   border-top: 3px solid #DFEC53;
   margin: 1rem 0; }
 
+small {
+  font-size: .7rem; }
+
 h1, h2, h3, h4, h5, h6 {
   color: #33424F;
   padding: 0;

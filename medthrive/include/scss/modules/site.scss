@@ -337,6 +337,12 @@ span{
 
 .bg-img-half{}
 
+.rounded-image{
+  overflow: hidden;
+  border-radius: 25px;
+  border: 1px solid #fff;
+}
+
 .process-item{
   position: relative;
   //max-width: 400px;

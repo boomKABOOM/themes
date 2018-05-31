@@ -310,6 +310,11 @@ span {
   background: #fff url(../../images/img-justine.png) 110% bottom no-repeat;
   background-size: auto 100%; }
 
+.rounded-image {
+  overflow: hidden;
+  border-radius: 25px;
+  border: 1px solid #fff; }
+
 .process-item {
   position: relative;
   margin: 1em auto; }
