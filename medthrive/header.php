@@ -54,7 +54,7 @@
     <div class="row" style="align-items:center;">
       <div class="col-12 col-md-3">
         <a href="/" class="logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/logo-bmkbm.png" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/logo-mt.png" />
         </a>
       </div>
       <div class="col-12 col-md-9 align-right">

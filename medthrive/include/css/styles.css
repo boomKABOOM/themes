@@ -829,6 +829,13 @@ footer .logo {
   -o-filter: brightness(0.7);
   filter: brightness(0.7); }
 
+.scroller {
+  padding: 3rem 0; }
+  .scroller .text {
+    width: 200%;
+    font-size: 10rem;
+    letter-spacing: .2rem; }
+
 .parallax-bg {
   padding: 120px 0 !important; }
 
@@ -856,6 +863,30 @@ footer .logo {
       z-index: 9;
       opacity: 1; }
 
+.image-bg-grad-container {
+  margin: 2rem;
+  border-radius: 25px;
+  background: #ec7153;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dfec53, #ec7153);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dfec53, #ec7153);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  .image-bg-grad-container .image-bg-grad {
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 25px;
+    overflow: hidden; }
+    .image-bg-grad-container .image-bg-grad img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto; }
+
 .hero-text h1 {
   font-weight: 600;
   font-size: 4rem; }
@@ -882,6 +913,14 @@ footer .logo {
   overflow: hidden; }
   .wrapper.default-page {
     padding: 1rem 0 0 0; }
+
+.bg-img {
+  background-position: center center !important;
+  background-size: cover !important;
+  padding: 6rem 0 10rem 0; }
+  .bg-img .logo {
+    max-width: 300px;
+    margin: 2rem 0; }
 
 .container {
   max-width: 1200px;

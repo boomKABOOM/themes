@@ -17,8 +17,19 @@
   @include filter-default(brightness(.7));
 }
 
+
+.scroller{
+  padding: 3rem 0;
+  .text{
+    width: 200%;
+    font-size: 10rem;
+    letter-spacing: .2rem;
+  }
+}
+
 .parallax{
 }
+
 
 .parallax-bg{
   padding: $element-spacing*10 0 !important;
@@ -47,6 +58,28 @@
       z-index: 9;
       opacity: 1;
      }
+  }
+}
+
+.image-bg-grad-container{
+  margin: 2rem;
+  border-radius: 25px;
+  @include bg-grad($color-mt-orange, $color-mt-yellow, right);
+  .image-bg-grad{
+    position: relative;
+    top:-1rem;
+    left: -1rem;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    img{
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
@@ -79,6 +112,16 @@
   overflow: hidden;
   &.default-page{
     padding: 1rem 0 0 0;
+  }
+}
+
+.bg-img{
+  background-position: center center !important;
+  background-size: cover !important;
+  padding: 6rem 0 10rem 0;
+  .logo{
+    max-width: 300px;
+    margin: 2rem 0;
   }
 }
 
