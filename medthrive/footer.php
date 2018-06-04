@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-12 pt-3">
           <a href="/" class="logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-bmkbm.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-mt.png" />
           </a>
           <h5 class="bigger-text pt-3">Medical Branding & Marketing Experts.</h5>
         </div>
@@ -18,7 +18,7 @@
         </div>
 
         <div class="col-6 col-md-2 p-3">
-          
+
         </div>
       </div>
     </div>

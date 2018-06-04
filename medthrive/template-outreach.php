@@ -146,11 +146,35 @@
 
 </main>
 
-<div id="scroll_text" class="scroller">
-  <div class="text">
-    Ready. Set. Grow! Thrive with us.
+<div class="wrapper header-img-grad">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-8 offset-0 p-5 m-5 align-center">
+        <h3>Introduction to our services.</h3>
+        <hr/>
+        <p>If you’re looking to expand your practice, MedThrive can help. We offer strategic branding, positioning, and marketing services to help you scale swiftly.</p>
+      </div>
+    </div>
   </div>
 </div>
+
+<div id="scroll_text" class="scroller">
+  <div class="text">
+    <span>Ready. Set. Grow! Thrive with us.</span> <span>Ready. Set. Grow! Thrive with us.</span>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+  setInterval(function(){
+    $('#scroll_text .text').animate({
+      left: - $('#scroll_text .text span').width()
+    }, 40000, "linear", function() {
+      $('#scroll_text .text').css('left', '2rem');
+  });
+  }, 2000);
+});
+console.log($('#scroll_text .text span').width());
+</script>
 
 <?php include('sections/after-content-sections.php'); ?>
 
