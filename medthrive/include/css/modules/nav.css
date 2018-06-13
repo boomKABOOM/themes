@@ -7,8 +7,11 @@
   left: 0;
   width: 100%;
   padding: .5em 0; }
+  .nav .container {
+    padding: .5em 3.5em; }
   .nav .logo {
     position: relative;
+    display: block;
     max-width: 250px; }
     .nav .logo [class^="logo--"] {
       -webkit-transition: all 0.5s ease;

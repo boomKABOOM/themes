@@ -9,8 +9,12 @@
   left: 0;
   width: 100%;
   padding: .5em 0;
+  .container{
+    padding: .5em 3.5em;
+  }
   .logo{
     position: relative;
+    display: block;
     max-width: 250px;
     [class^="logo--"]{
       @include transition-default(all .5s ease);

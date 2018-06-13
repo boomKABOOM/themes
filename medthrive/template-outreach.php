@@ -146,13 +146,36 @@
 
 </main>
 
-<div class="wrapper header-img-grad">
+<div class="wrapper header-img-grad dark" style="background:url(<?php echo get_template_directory_uri(); ?>/images/img-bikelady.jpg);">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-8 offset-0 p-5 m-5 align-center">
+      <div class="col-12 col-md-8 offset-0 offset-md-2 p-5 mt-5 mb-5 align-center">
         <h3>Introduction to our services.</h3>
         <hr/>
         <p>If you’re looking to expand your practice, MedThrive can help. We offer strategic branding, positioning, and marketing services to help you scale swiftly.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="overlap-previous">
+      <div class="row">
+        <div class="col-12 col-md-8 offset-0 offset-md-2 p-5 mt-5 mb-5 align-center">
+          <h3>Introduction to our services.</h3>
+          <hr/>
+          <p>If you’re looking to expand your practice, MedThrive can help. We offer strategic branding, positioning, and marketing services to help you scale swiftly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="team-members">
+      <div class="member">
+        <div class="member"></div>
+        <div class="member"></div>
       </div>
     </div>
   </div>
@@ -165,7 +188,8 @@
 </div>
 <script>
 $(document).ready(function(){
-  setInterval(function(){
+  $('#scroll_text .text').css('left', '2rem');
+    setInterval(function(){
     $('#scroll_text .text').animate({
       left: - $('#scroll_text .text span').width()
     }, 40000, "linear", function() {

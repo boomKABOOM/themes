@@ -21,12 +21,8 @@
 
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="wrapper copyright-block bg-offwhite">
-    <div class="container">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-12 col-sm-6 text-center text-sm-left">
           &copy; <?php echo date("Y"); ?> <?php echo get_bloginfo('title'); ?>
         </div>
