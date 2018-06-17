@@ -16,8 +16,8 @@
 <?php } else { ?>
 
   <div class="content-container pt-5 pb-3">
-    <div class="row center-mobile">
-      <div class="col-12 col-sm-4 text-center">
+    <div class="row center-mobile" style="align-items:center;">
+      <div class="col-12 col-sm-4 pl-5 pr-5 pl-sm-1 pr-sm-1 text-center">
         <div class="rounded-image">
           <img src="<?php echo get_template_directory_uri(); ?>/images/img-nicole.jpg" />
         </div>
@@ -25,7 +25,7 @@
       </div>
         <div class="col-12 col-sm-8">
         <h3>Ready to talk marketing?<br/>
-          Schedule a consult.</h3>
+          Schedule a call.</h3>
         <p>Learn how our experts can help transform your business for growth.</p>
         <a href="/contact" class="btn btn-outline-primary">Schedule a Call</a>
         <a href="/contact" class="btn btn-outline-primary">Send a Note</a>

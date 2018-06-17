@@ -452,7 +452,7 @@ article ol {
   margin: 0 0 1em 1em;
   max-width: 70%; }
 
-@media (max-width: 960px) {
+@media (max-width: 991px) {
   .two-col {
     column-count: 1;
     column-gap: 0; } }
@@ -724,7 +724,7 @@ footer .logo {
   background: #3091bd;
   border: 0; }
 
-@media (max-width: 960px) {
+@media (max-width: 991px) {
   .nav .container {
     width: 100% !important; }
     .nav .container nav ul li a {
@@ -747,7 +747,7 @@ footer .logo {
     top: .5em;
     right: .5em;
     font-size: 1.5em;
-    color: #fff; }
+    color: #33424F; }
   .nav {
     top: 0; }
     .nav .container {
@@ -769,22 +769,30 @@ footer .logo {
         top: 0;
         right: -80vw;
         height: 100vh;
-        background: #4a4949;
+        background: #fff;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #4a4949, #4a4949);
+        background: -webkit-linear-gradient(to top, #eee, #fff);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #4a4949, #4a4949);
+        background: linear-gradient(to top, #eee, #fff);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+        .nav .container nav .btn--get-started {
+          margin-right: 3em;
+          -webkit-transform: scale(1.25);
+          -moz-transform: scale(1.25);
+          -o-transform: scale(1.25);
+          transform: scale(1.25);
+          font-weight: normal; }
         .nav .container nav ul {
-          padding: 5em 0 0 0; }
+          padding: 5em 0 0 0;
+          display: block; }
           .nav .container nav ul li {
             display: block; }
             .nav .container nav ul li a {
               padding: 1em;
-              font-size: 16px;
+              font-size: 1.25rem;
               display: block;
-              text-align: left;
-              color: #fff; }
+              text-align: right;
+              color: #33424F; }
             .nav .container nav ul li ul {
               padding: 0;
               display: none;
@@ -876,29 +884,29 @@ footer .logo {
       z-index: 9;
       opacity: 1; }
 
-.image-bg-grad-container {
+.img-bg-grad {
   margin: 2rem;
-  border-radius: 25px;
-  background: #ec7153;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #dfec53, #ec7153);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #dfec53, #ec7153);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-  .image-bg-grad-container .image-bg-grad {
-    position: relative;
-    top: -1rem;
-    left: -1rem;
-    height: 0;
-    padding-bottom: 100%;
-    border-radius: 25px;
-    overflow: hidden; }
-    .image-bg-grad-container .image-bg-grad img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: auto; }
+  position: relative;
+  top: -2rem;
+  left: -2rem; }
+  .img-bg-grad::after {
+    background: #ec7153;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dfec53, #ec7153);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dfec53, #ec7153);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    top: 2rem;
+    left: 2rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px; }
+  .img-bg-grad img {
+    width: 100%;
+    border-radius: 25px; }
 
 .header-img-grad {
   position: relative;
@@ -978,6 +986,9 @@ footer .logo {
     top: 0;
     left: 0; }
 
+.full-spacer {
+  margin: 8rem 0; }
+
 .bg-svg {
   position: absolute;
   z-index: 0;
@@ -985,6 +996,16 @@ footer .logo {
   right: 0;
   width: 100%;
   overflow: visible !important; }
+  .bg-svg[class*='pos-'][class*='hom-'][class*='02'] {
+    top: 10vh;
+    left: -10vw;
+    height: 120vh;
+    width: 120vw; }
+  .bg-svg[class*='pos-'][class*='or-'][class*='02'] {
+    top: 10vh;
+    left: -10vw;
+    height: 120vh;
+    width: 130vw; }
 
 .content-container {
   border-radius: 70px;
@@ -999,7 +1020,9 @@ footer .logo {
 
 img.extra-wide {
   width: 125%;
-  max-width: 125%; }
+  max-width: 125%;
+  position: relative;
+  right: -4rem; }
 
 span {
   display: inline-block; }
@@ -1618,7 +1641,7 @@ ul.slick-dots {
   display: inline-block;
   min-width: 200px;
   text-align: center;
-  margin: 2em 24px 2em 0;
+  margin: 2em .5rem 2em 0;
   font-size: .85em;
   letter-spacing: .15em;
   font-weight: 700;
@@ -1942,7 +1965,12 @@ iframe {
     .selector-container .selector.active .option:hover {
       font-size: 1.2em; } }
 
-@media (max-width: 960px) {
+@media (max-width: 991px) {
+  .bg-svg[class*='pos-'][class*='hom-'][class*='02'] {
+    top: 5vh;
+    left: -40vw;
+    height: 100vh;
+    width: 200vw; }
   .direction-lg-reverse {
     flex-direction: column-reverse; }
     .direction-lg-reverse .hug-right {
@@ -1978,9 +2006,30 @@ iframe {
     max-width: 100%;
     box-sizing: border-box; }
   .after-content-links .box-item {
-    width: 49.5%; } }
+    width: 49.5%; }
+  .btn-outline-primary {
+    margin: 1rem 0 0 0;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9); } }
 
 @media (max-width: 768px) {
+  .bg-svg[class*='pos-'] {
+    position: absolute; }
+    .bg-svg[class*='pos-'][class*='hom-'][class*='01'] {
+      top: -52vh;
+      right: 0;
+      height: 120vh;
+      width: 200vw;
+      opacity: .65; }
+    .bg-svg[class*='pos-'][class*='hom-'][class*='02'] {
+      top: -5vh;
+      left: -10vw;
+      height: 100vh;
+      width: 200vw; }
+  img.extra-wide {
+    right: -2rem; }
   .full-only {
     display: none; }
   .mobile-only {
@@ -1988,9 +2037,14 @@ iframe {
   .wrapper {
     padding: 2rem 1rem; }
   .container {
-    padding: 0 1.75em; }
+    padding: 0 1rem; }
   .content-container {
-    padding: 1.75em; }
+    padding: 2rem 1rem;
+    margin: .25rem; }
+    .content-container .content-container {
+      padding: 0;
+      margin: 0;
+      box-shadow: none; }
   .big-title {
     font-size: 2.85em; }
     .big-title span {
@@ -2056,7 +2110,7 @@ iframe {
   .content-subheading strong {
     font-size: 1.5em; }
   .btn-outline-primary {
-    margin: 1em 1em 1em 0; }
+    margin: 0 1em 1rem 0; }
   .border-box {
     font-size: 18px;
     background: #fff;

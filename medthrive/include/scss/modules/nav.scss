@@ -277,7 +277,7 @@ footer .logo{
     top:.5em;
     right:.5em;
     font-size: 1.5em;
-    color:#fff;
+    color:$color-drkblue;
   }
 
   .nav{
@@ -300,17 +300,23 @@ footer .logo{
         overflow-y: auto;
         top:0; right:-80vw;
         height: 100vh;
-        @include bg-grad($color-black, $color-drkgray, bottom);
+        @include bg-grad(#fff, #eee, top);
+        .btn--get-started{
+          margin-right: 3em;
+          @include transform-default(scale(1.25));
+          font-weight: normal;
+        }
         ul{
           padding: 5em 0 0 0;
+          display: block;
           li{
             display: block;
             a{
               padding: 1em;
-              font-size:16px;
+              font-size:1.25rem;
               display: block;
-              text-align: left;
-              color:#fff;
+              text-align: right;
+              color:$color-drkblue;
             }
             ul{
               padding: 0;

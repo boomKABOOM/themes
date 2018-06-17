@@ -40,17 +40,17 @@ $('#prompt').click(function(){
 
 <div id="content" class="wrapper">
   <div class="container">
-    <svg class="bg-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <svg class="bg-svg pos-hom-01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
       <defs>
         <linearGradient id="grad-o-y" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:rgb(223,113,83);stop-opacity:1" />
           <stop offset="100%" style="stop-color:rgb(223,236,83);stop-opacity:1" />
         </linearGradient>
       </defs>
-      <svg x="50" y="-20">
+      <svg x="39" y="-20">
         <path fill="url(#grad-o-y)" d="M50,0 A200,200 1 0 1 100,86.6 A200,200 1 0 1 0,86.6 A200,200 1 0 1 50,0 Z" stroke-linejoin="round" stroke-width="30" stroke="url(#grad-o-y)" style="transform-origin: 50% 50%; transform:scale(.65) rotate(-130deg); opacity:0.75;"/>
       </svg>
-      <svg x="50" y="-20">
+      <svg x="39" y="-20">
         <path fill="url(#grad-o-y)" d="M50,0 A200,200 1 0 1 100,86.6 A200,200 1 0 1 0,86.6 A200,200 1 0 1 50,0 Z" stroke-linejoin="round" stroke-width="30" stroke="url(#grad-o-y)" style="transform-origin: 50% 50%; transform:scale(.5) rotate(45deg); "/>
       </svg>
     <svg>
@@ -88,7 +88,7 @@ $('#prompt').click(function(){
     </div>
 
     <div class="svg-container">
-      <svg class="bg-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <svg class="bg-svg pos-hom-02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
         <defs>
           <linearGradient id="grad-o-y" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:rgb(223,113,83);stop-opacity:1" />

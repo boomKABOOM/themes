@@ -173,7 +173,7 @@ article ol {
   margin: 0 0 1em 1em;
   max-width: 70%; }
 
-@media (max-width: 960px) {
+@media (max-width: 991px) {
   .two-col {
     column-count: 1;
     column-gap: 0; } }
