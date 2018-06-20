@@ -37,7 +37,7 @@
         <p>MedThrive is a new idea. A focused idea designed for small to midsize health and medical practices. We are a collective of experienced marketers, designers, innovators, and social media catalysts with one unique goal: to level the medical playing field by creating memorable, engaging, and contagious “brand experiences” for your practice. We can help As Within Behavioral Services thrive through sharing experiences that attract, unite and motivate potential clients to act. Our specialty? Creating stories and connections that teach and reach at an emotional level.</p>
       </div>
       <div class="col-12 col-md-6">
-        <div class="img-bg-grad">
+        <div class="underlay-bg-grad">
           <img src="<?php echo get_template_directory_uri(); ?>/images/img-process-support.png" />
         </div>
       </div>
@@ -128,7 +128,7 @@
       </div>
     </div>
     <div class="row content-container">
-      <div class="col-4">
+      <div class="col-4 stars">
         <h3>Increased web traffic and digital footprint</h3>
         <img src="<?php echo get_template_directory_uri(); ?>/images/icon-star.png"/>
         <img src="<?php echo get_template_directory_uri(); ?>/images/icon-star.png"/>
@@ -144,15 +144,36 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div class="full-spacer"></div>
-
-
+  <div id="scroll_text" class="scroller">
+    <div class="text">
+      <span>Ready. Set. Grow! Thrive with us.</span> <span>Ready. Set. Grow! Thrive with us.</span>
+    </div>
+  </div>
+  <script>
+  $(document).ready(function(){
+    $('#scroll_text .text').css('left', '2rem');
+      setInterval(function(){
+      $('#scroll_text .text').animate({
+        left: - $('#scroll_text .text span').width()
+      }, 40000, "linear", function() {
+        $('#scroll_text .text').css('left', '2rem');
+    });
+    }, 2000);
+  });
+  console.log($('#scroll_text .text span').width());
+  </script>
 
   <div class="container">
+    <div class="row">
+      <div class="col align-center">
+        <h3>Learn how our experts can help <br>
+        transform your practice for growth.</h3>
+        <a href="/contact" class="btn btn-outline-primary">Schedule a Call</a>
 
-    <?php include('sections/cta-block.php'); ?>
-
+      </div>
+    </div>
   </div>
 
 </div>
@@ -172,12 +193,48 @@
 </div>
 
   <div class="container">
-    <div class="overlap-previous">
+    <div class="overlap-previous content-container squared-edges">
       <div class="row">
-        <div class="col-12 col-md-8 offset-0 offset-md-2 p-5 mt-5 mb-5 align-center">
-          <h3>Introduction to our services.</h3>
+        <div class="col-12 col-md-6">
+          <div class="underlay-bg-grad">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/img-lady.jpg" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3>BioStat</h3>
+          <h4>Fast, focused digital introductions for health and wellness practitioners.</h4>
           <hr/>
-          <p>If you’re looking to expand your practice, MedThrive can help. We offer strategic branding, positioning, and marketing services to help you scale swiftly.</p>
+          <p>Business biographies that focus the reader on the unique properties, services and positioning of the business. Your potential audience gets them “stat” (right away) in an easy to read and receive format.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>ServStat</h3>
+          <h4>Fast, focused digital introductions for health and wellness practitioners.</h4>
+          <hr/>
+          <p>We believe modern practitioners are much more than an office or a title. We believe you have the power to change lives, to be a navigator in the lives of those whom you serve. We believe you are more than a HealthGrades score or a Google Search result. So we work with you to tailor your brand and online manner to go beyond the office and to touch lives.</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="underlay-bg-grad">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/img-baby-feet.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="full-spacer"></div>
+      <div class="row content-container">
+        <div class="col-5">
+          <h3>Increased web traffic and digital footprint</h3>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon-star.png"/>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon-star.png"/>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon-star.png"/>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon-star.png"/>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icon-star.png"/>
+        </div>
+        <div class="col-7">
+          <div class="testimonial">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h4>Robinet PT</h4>
+          </div>
         </div>
       </div>
     </div>
@@ -193,6 +250,47 @@
     </div>
   </div>
 </div>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="row content-container underlay-bg-grad">
+      <div class="col-5">
+        <div class="underlay-bg-grad">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/img-handshake.jpg" />
+        </div>
+      </div>
+      <div class="col-7">
+        <h3>Are we right for you?</h3>
+        <ul>
+          <li>You offer something unique, not unbending.</li>
+          <li>You are more than a HealthGrades score or a Google Search result.</li>
+          <li>You provide an experience, not only treatment.</li>
+          <li>You serve with compassion as well as competency.</li>
+          <li>You want a message that resonates.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="full-spacer"></div>
+
+    <div class="row">
+      <div class="col-12 col-md-8 offset-0 offset-md-2 align-center">
+        <h3>We'd love to talk</h3>
+        <p>We’d like the opportunity to show you what we can be and what As Within Behavioral Health Services can become through focused and experiential marketing.</p>
+
+        <p>Jeff Lewis, our brand development and outreach director, is located in Rockford Michigan. He is ready to talk with you, at your convenience. You can reach him by scheduling a 30–minute appointment or sending an email below.</p>
+
+        <p>Together, we can create a path to find and convert the people you will serve to change their world.</p>
+
+        <a href="/contact" class="btn btn-outline-primary">Schedule a Call</a>
+        <a href="/contact" class="btn btn-outline-primary">Request More Info</a>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 <?php include('sections/after-content-sections.php'); ?>
 

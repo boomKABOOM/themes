@@ -30,7 +30,7 @@
       font-weight: 700;
       padding: .5em;
       border-radius: .5em;
-      border: 1px solid #bdb6b0;
+      border: 1px solid #BEC3C6;
       line-height: 1em;
       background: #fff;
       position: absolute;
@@ -84,7 +84,7 @@
       font-size: 1.15em; }
   .form input, .form textarea {
     border-radius: 0;
-    border: 1px solid #bdb6b0;
+    border: 1px solid #BEC3C6;
     box-sizing: border-box;
     margin-bottom: 12px !important;
     max-width: 100%; }
@@ -125,7 +125,7 @@
       width: 100% !important; }
     .form .list-radio-wrap label {
       border-radius: 0;
-      border: 1px solid #bdb6b0;
+      border: 1px solid #BEC3C6;
       display: inline-block;
       font-weight: 400;
       padding: .75em 1em;
@@ -135,7 +135,7 @@
       .form .list-radio-wrap ul li {
         font-size: 18px;
         border-radius: 0;
-        border: 1px solid #bdb6b0;
+        border: 1px solid #BEC3C6;
         display: inline-block;
         font-weight: 400;
         padding: .5em 1em !important;
