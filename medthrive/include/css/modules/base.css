@@ -22,7 +22,7 @@ p {
     display: inline-block;
     font-size: 1.1em;
     text-decoration: underline;
-    font-weight: 700; }
+    font-weight: 600; }
     p a:hover {
       color: #4a4949; }
 
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0 0 12px 0;
   font-weight: 400;
-  line-height: 2em; }
+  line-height: 1.15em; }
 
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
   color: #fff !important; }
@@ -57,7 +57,7 @@ h1, h3 {
   line-height: 1.15em;
   color: #33424F;
   margin: 12px 0 24px 0;
-  font-weight: 700; }
+  font-weight: 600; }
 
 h2 {
   font-size: 1.15em;
@@ -69,7 +69,7 @@ h4 {
   font-size: 1.5em;
   display: block;
   margin: 12px 0;
-  font-weight: 700; }
+  font-weight: 600; }
 
 h5 {
   font-size: 1.15em;
@@ -78,7 +78,7 @@ h5 {
 h6 {
   font-size: 1.3em;
   color: inherit;
-  font-weight: 200;
+  font-weight: 400;
   margin: 12px 12px 12px 0; }
 
 blockquote p {
@@ -149,11 +149,11 @@ article ol {
     position: relative;
     z-index: 1;
     margin: 0;
-    font-weight: 700; }
+    font-weight: 600; }
     article ol li strong {
       font-size: 1.15em; }
     article ol li:before {
-      font-weight: 700;
+      font-weight: 600;
       color: #808285;
       position: absolute;
       top: .75em;

@@ -78,6 +78,13 @@ function scrollAdjustments(){
 
   $('.slowfade.container').css('opacity',(1 - (slowScroll*.02)));
   $('.slowfade.container').css('top',slowScroll*2.5);
+
+  $('.slowerfade').css('opacity',(1 - (slowScroll*.02)));
+  $('.slowerfade').css('top',slowScroll*3);
+
+  $('.slowestfade').css('opacity',(.75 - (slowScroll*.01)));
+  $('.slowestfade').css('top',slowScroll*4);
+
   $('.parallax').css('background-position',`0 -${slowScroll*1.5}`);
 
   if($(document).width() > 576){

@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6{
   padding: 0;
   margin:0 0 $element-spacing 0;
   font-weight: $default-font-weight;
-  line-height: $default-line-height;
+  line-height: 1.15em;;
 }
 
 .dark{
@@ -92,7 +92,7 @@ h5{
 h6{
   font-size: 1.3em;
   color: inherit;
-  font-weight: 200;
+  font-weight: $default-font-weight;
   margin: $element-spacing $element-spacing $element-spacing 0;
 }
 blockquote{
