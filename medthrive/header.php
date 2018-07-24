@@ -61,7 +61,7 @@
         <nav>
           <div id="close-nav">X</div>
           <?php main_nav(); ?>
-          <a class="btn btn-outline-primary btn--get-started">Get Started</a>
+          <a href="/contact-us" class="btn btn-outline-primary btn--get-started">Get Started</a>
         </nav>
       </div>
     </div>

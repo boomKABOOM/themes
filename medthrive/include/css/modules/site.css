@@ -256,7 +256,7 @@ ul.green-bullets {
   .bg-svg[class*='pos-'][class*='hom-'][class*='02'] {
     top: 5vh;
     left: -25vw;
-    height: 120vh;
+    height: 100vw;
     width: 120vw; }
   .bg-svg[class*='pos-'][class*='or-'][class*='02'] {
     top: 10vh;
