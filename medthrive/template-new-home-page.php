@@ -18,10 +18,8 @@
         <div class="text-center slide-up inactive">
           <div class="dark">
             <div class="hero-text">
-              <div class="full-only">
-                <?php the_field('video_overlay_title') ?>
-                <hr/>
-              </div>
+              <?php the_field('video_overlay_title') ?>
+              <hr/>
               <?php the_field('video_overlay_content') ?>
               <a href="<?php the_field('section_1_link') ?>" class="btn btn-outline-primary mobile-only"><?php the_field('section_1_button_text') ?></a>
 
@@ -70,27 +68,63 @@ $('#prompt').click(function(){
       </div>
     </div>
 
-    <div class="content-container">
+    <div class="content-container service">
       <div class="row center-mobile">
     	  <div class="col-12 full-only">
           <div class="content-container align-center">
             <?php the_field('section_2_intro') ?>
           </div>
-
-        </div>
-    	  <div class="col-12 col-md-4 align-center">
-          <img class="icon" src="<?php the_field('section_2_icon_1') ?>" />
-          <?php the_field('section_2_text_1') ?>
-        </div>
-    	  <div class="col-12 col-md-4 align-center">
-          <img class="icon" src="<?php the_field('section_2_icon_2') ?>" />
-          <?php the_field('section_2_text_2') ?>
-        </div>
-    	  <div class="col-12 col-md-4 align-center">
-          <img class="icon" src="<?php the_field('section_2_icon_3') ?>" />
-          <?php the_field('section_2_text_3') ?>
         </div>
       </div>
+
+        <div class="row">
+          <div class="col-12 col-md-4 align-center service--content">
+            <img class="icon" src="<?php the_field('section_2_icon_1') ?>" />
+            <?php the_field('section_2_text_1') ?>
+            <div class="mobile-only">
+              <?php the_field('section_2_link_1') ?>
+            </div>
+          </div>
+      	  <div class="col-12 col-md-4 align-center">
+            <img class="icon" src="<?php the_field('section_2_icon_2') ?>" />
+            <?php the_field('section_2_text_2') ?>
+            <div class="mobile-only">
+              <?php the_field('section_2_link_2') ?>
+            </div>
+          </div>
+      	  <div class="col-12 col-md-4 align-center">
+            <img class="icon" src="<?php the_field('section_2_icon_3') ?>" />
+            <?php the_field('section_2_text_3') ?>
+            <div class="mobile-only">
+              <?php the_field('section_2_link_3') ?>
+            </div>
+          </div>
+        </div>
+
+        <div class="row m-0 p-0 full-only">
+          <div class="col-12 col-md-4 align-center">
+            <hr/>
+          </div>
+          <div class="col-12 col-md-4 align-center">
+            <hr/>
+          </div>
+          <div class="col-12 col-md-4 align-center">
+            <hr/>
+          </div>
+        </div>
+
+        <div class="row m-0 p-0 full-only">
+          <div class="col-12 col-md-4 align-center">
+            <?php the_field('section_2_link_1') ?>
+          </div>
+      	  <div class="col-12 col-md-4 align-center">
+            <?php the_field('section_2_link_2') ?>
+          </div>
+      	  <div class="col-12 col-md-4 align-center">
+            <?php the_field('section_2_link_3') ?>
+          </div>
+        </div>
+
     </div>
 
     <div class="svg-container">

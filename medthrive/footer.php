@@ -13,7 +13,7 @@
         </div>
         <div class="col-12 col-md p-3">
           <hr/>
-          <p>MedThrive is a design and marketing consultancy located in Austin, TX and serving clients around the US. Our team of strategists, innovators, designers, and catalysts accelerate business growth and deliver transformative value for small-medium sized medical practices. From medical Brand Identity to medical Marketing and Social Media Management, our experts rise above the medical marketing demands of modern media culture.</p>
+          <p>MedThrive is a design and marketing consultancy located in Austin, TX that accelerates business growth and delivers transformative value for small-medium sized health and medical practices. Partnering with medical practices and clinics, pediatricians, dentists and orthodontists, optometrists, holistic and alternative medicine providers, occupational and physical therapists, speech pathology and linguistic services, counseling and behavioral services, and massage therapy and wellness centers that focus on overall wellbeing.</p>
 
         </div>
 
