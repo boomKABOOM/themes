@@ -83,6 +83,7 @@ $('#prompt').click(function(){
             <?php the_field('section_2_text_1') ?>
             <div class="mobile-only">
               <?php the_field('section_2_link_1') ?>
+              <hr style="margin:3rem auto;"/>
             </div>
           </div>
       	  <div class="col-12 col-md-4 align-center">
@@ -90,12 +91,13 @@ $('#prompt').click(function(){
             <?php the_field('section_2_text_2') ?>
             <div class="mobile-only">
               <?php the_field('section_2_link_2') ?>
+              <hr style="margin:3rem auto;"/>
             </div>
           </div>
       	  <div class="col-12 col-md-4 align-center">
             <img class="icon" src="<?php the_field('section_2_icon_3') ?>" />
             <?php the_field('section_2_text_3') ?>
-            <div class="mobile-only">
+            <div class="mobile-only pb-5">
               <?php the_field('section_2_link_3') ?>
             </div>
           </div>
