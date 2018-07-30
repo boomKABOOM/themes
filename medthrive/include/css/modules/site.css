@@ -1217,6 +1217,8 @@ iframe {
   .container {
     width: 100%;
     padding: 3rem 5rem; }
+  .content-container {
+    margin: 0 1rem; }
   .bg-img-half {
     background-position-y: center !important; }
   .selector-container .label {

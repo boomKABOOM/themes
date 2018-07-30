@@ -1429,9 +1429,13 @@ iframe{
 }
 
 @media(max-width:$size-xl){
+
   .container{
     width:100%;
     padding: 3rem 5rem;
+  }
+  .content-container{
+    margin:0 1rem;
   }
   .bg-img-half{
     background-position-y: center !important;
