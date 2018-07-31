@@ -9,7 +9,7 @@
     </div>
   </div>
 </div>
-<div class="wrapper content-wrapper">
+<div class="wrapper">
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-8 col-md-9 p-5 pr-sm-5">
@@ -23,9 +23,10 @@
         <?php get_sidebar(); ?>
       </div>
     </div>
+
+    <?php include('sections/cta-block.php'); ?>
+
   </div>
 </div>
 
-<?php include('sections/cta-block.php'); ?>
-<?php include('sections/stuck-nav-function.php'); ?>
 <?php get_footer(); ?>

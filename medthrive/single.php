@@ -8,8 +8,8 @@
 </div>
 
 <div class="wrapper">
-  <div class="wrapper">
-    <div class="container content-container" style="margin-top:-6em;">
+  <div class="container">
+    <div class="content-container">
       <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">&larr; back to Resources<a>
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" class="post-single-item">

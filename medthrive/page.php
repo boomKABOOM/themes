@@ -16,7 +16,8 @@ while (have_posts()) : the_post(); ?>
 </div>
 
 <div class="wrapper">
-  <div class="container content-container" style="margin-top:-6em;">
+  <div class="container">
+    <div class="content-container">
 
         <?php include('sections/breadcrumb.php'); ?>
         <!-- article -->
@@ -82,6 +83,7 @@ while (have_posts()) : the_post(); ?>
           </div>
         <?php } ?>
   </div>
+</div>
 </div>
 
 <?php endwhile; endif; ?>
