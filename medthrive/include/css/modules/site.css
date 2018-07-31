@@ -1148,6 +1148,31 @@ iframe {
         left: 0;
         top: .25em; }
 
+[class^='chart'] {
+  margin: 2rem 1rem; }
+  [class^='chart'] [class*='--row'] {
+    margin: 0; }
+    [class^='chart'] [class*='--row'] [class*='--cell'] {
+      border-bottom: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      padding: .5rem 1rem .5rem 3rem; }
+      [class^='chart'] [class*='--row'] [class*='--cell'].checkmark {
+        background: url(../../images/icon-circle-check.png) no-repeat;
+        background-position: 1rem 50%;
+        background-size: 1.3rem; }
+      [class^='chart'] [class*='--row'] [class*='--cell']:last-child {
+        border-right: 1px solid #ccc; }
+    [class^='chart'] [class*='--row']:first-child [class*='--cell'] {
+      border-top: 1px solid #ccc; }
+      [class^='chart'] [class*='--row']:first-child [class*='--cell']:first-child {
+        border-radius: 15px 0 0 0; }
+      [class^='chart'] [class*='--row']:first-child [class*='--cell']:last-child {
+        border-radius: 0 15px 0 0; }
+    [class^='chart'] [class*='--row']:last-child [class*='--cell']:first-child {
+      border-radius: 0 0 0 15px; }
+    [class^='chart'] [class*='--row']:last-child [class*='--cell']:last-child {
+      border-radius: 0 0 15px 0; }
+
 .shadow-btn-container {
   position: relative;
   display: inline-block; }

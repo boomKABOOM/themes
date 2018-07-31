@@ -13,16 +13,45 @@
       <div class="col-12">
         <?php the_field('block_1_main') ?>
       </div>
-      <div class="col-12 col-md-6">
-        <div class="underlay-bg-grad">
-
-          <img src="<?php the_field('block_1_img') ?>" />
-        </div>
-      </div>
-      <div class="col-12 col-md-6">
-        <?php the_field('block_1_img_text') ?>
-      </div>
+      
     </div>
+
+    <?php if( have_rows('chart') ){ ?>
+      <div class="chart">
+      <?php while ( have_rows('chart') ) : the_row(); ?>
+
+        <div class="row chart--row">
+
+          <?php if(get_sub_field('col_1')){ ?>
+            <div class="col chart--cell checkmark">
+          <?php } else { ?>
+            <div class="col chart--cell">
+          <?php } ?>
+              <?php the_sub_field('col_1'); ?>
+            </div>
+
+            <?php if(get_sub_field('col_2')){ ?>
+              <div class="col chart--cell checkmark">
+            <?php } else { ?>
+              <div class="col chart--cell">
+            <?php } ?>
+              <?php the_sub_field('col_2'); ?>
+            </div>
+
+            <?php if(get_sub_field('col_3')){ ?>
+              <div class="col chart--cell checkmark">
+            <?php } else { ?>
+              <div class="col chart--cell">
+            <?php } ?>
+              <?php the_sub_field('col_3'); ?>
+            </div>
+
+          </div>
+
+      <?php endwhile; ?>
+      </div>
+    <?php } ?>
+
   </div>
 
   <svg class="bg-svg pos-or-01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -67,8 +96,6 @@
           <h5><?php the_sub_field('position'); ?></h5>
         </div>
       </div>
-
-      <?php the_sub_field('sub_field_name'); ?>
 
     <?php endwhile; ?>
     </div>

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="wrapper category-wrapper bg-offwhite">
+<div class="wrapper">
   <div class="container">
     <div class="page-title category-title full-only">
       <h2>Blog</h2>
@@ -27,6 +27,5 @@
 </div>
 
 <?php include('sections/cta-block.php'); ?>
-<?php include('sections/email-signup.php'); ?>
 <?php include('sections/stuck-nav-function.php'); ?>
 <?php get_footer(); ?>

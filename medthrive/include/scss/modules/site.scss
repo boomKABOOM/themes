@@ -1353,6 +1353,47 @@ iframe{
   }
 }
 
+[class^='chart']{
+  margin: 2rem 1rem;
+  [class*='--row']{
+    margin: 0;
+    [class*='--cell']{
+      border-bottom:1px solid #ccc;
+      border-left:1px solid #ccc;
+      padding: .5rem 1rem .5rem 3rem;
+      &.checkmark{
+        background: url(../../images/icon-circle-check.png) no-repeat;
+        background-position: 1rem 50%;
+        background-size: 1.3rem;
+      }
+      &:last-child{
+        border-right:1px solid #ccc;
+      }
+    }
+    &:first-child{
+      [class*='--cell']{
+        border-top:1px solid #ccc;
+        &:first-child{
+          border-radius: 15px 0 0 0;
+        }
+        &:last-child{
+          border-radius: 0 15px 0 0;
+        }
+      }
+    }
+    &:last-child{
+      [class*='--cell']{
+        &:first-child{
+          border-radius: 0 0 0 15px;
+        }
+        &:last-child{
+          border-radius: 0 0 15px 0;
+        }
+      }
+    }
+  }
+}
+
 .shadow-btn-container{
   & *{
     @include transition-default(all .25s ease);
